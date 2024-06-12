@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+}
+
+.text-reflect, .text-reflect:before, .text-reflect span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.text-reflect, .text-reflect:before, .text-reflect:after {
+    position: relative;
+}
+
+ .text-reflect {
+    padding-top: 9rem;
+}
+
+.text-reflect:before {
+    content: 'under construction...';
+    top: 2em;
+    transform: scale(1, -1);
+    backface-visibility: visible;
+    z-index: 1;
+    font-family: "Libre Baskerville";
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.text-reflect:after {
+    content: '';
+    display: block;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+}
+
+.in-progress {
+    background: linear-gradient( #E3F0E4, #FCA5D9);
+    height: 60vh;
+}

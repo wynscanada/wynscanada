@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jumbotron-fluid {
+    background-color: #E3F0E4;
+    padding-left: 6em;
+    padding-right: 6em;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 0;
+    padding-bottom: 0rem;
+    height: 90vh;
+}
+
+#hero-subtitle {
+    font-style: italic;
+    padding-top: 6rem;
+}
+
+.display-4 {
+    font-family: "League Spartan";
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    background-color:#8DB18C;
+}
+
+.btn:hover {
+    background-color: #233F14;
+    color: white;
+}
+

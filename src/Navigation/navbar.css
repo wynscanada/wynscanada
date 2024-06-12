@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wyns-nav {
+    background-color: #E3F0E4;
+}
+
+.wyns-links {
+    font-family: "Libre Baskerville", serif;
+    color: black;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.wyns-socials {
+    line-height: 0.6;
+    font-size: 0.8em;
+    display: block;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wyns-socials .nav-link {
+    padding: 0.5em 0;
+}
+
+img {
+    width: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+    .wyns-socials {
+        color: black;
+        font-style: normal;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+        float: right;
+        text-align: right;
+    }
+
+    .wyns-links {
+        font-family: "Libre Baskerville", serif;
+        color: black;
+        font-style: normal;
+        font-size: 0.8rem;
+        line-height: 0.3rem;
+        text-transform: uppercase;
+        float: left;
+    }
+  }
