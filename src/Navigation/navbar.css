@@ -28,6 +28,39 @@ img {
     width: 4em;
 }
 
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    border: 1px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: white;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+
+.dropdown-item.active {
+    background-color: #FB9ED5; /* Optional: Change text color for active item */
+    color: #53193c;
+}
+
 @media only screen and (max-width: 768px) {
     .wyns-socials {
         color: black;
@@ -48,3 +81,9 @@ img {
         float: left;
     }
   }
+
+@media only screen and (max-width: 450px) {
+    img {
+        width: 3em;
+    }
+}

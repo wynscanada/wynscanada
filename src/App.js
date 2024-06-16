@@ -5,6 +5,7 @@ import WynsNav from './Navigation/WynsNav.js';
 import Footer from './Navigation/Footer.js';
 import About from './About.js';
 import Construction from './Construction.js';
+import WhoWeAre from './WhoWeAre.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/construction" element={<Construction />} />
+        <Route path="/whoweare" element={<WhoWeAre />} />
       </Routes>
       <Footer />
     </>

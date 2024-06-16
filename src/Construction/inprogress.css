@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
 h1 {
     font-family: "League Spartan", sans-serif;
+    font-size: 2rem;
 }
 
 .text-reflect, .text-reflect:before, .text-reflect span {
@@ -43,4 +41,16 @@ h1 {
 .in-progress {
     background: linear-gradient( #E3F0E4, #FCA5D9);
     height: 60vh;
+}
+
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    h1 {
+        font-size: 1.2rem;
+    }
 }

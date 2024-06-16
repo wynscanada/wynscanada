@@ -1,33 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 .jumbotron-fluid {
-    background-color: #E3F0E4;
+    background: linear-gradient( #E3F0E4, #FCA5D9);
     padding-left: 6em;
     padding-right: 6em;
-    font-family: "Libre Baskerville", serif;
-    margin-bottom: 0;
-    padding-bottom: 0rem;
-    height: 90vh;
+    font-family: "Montserrat";
+    height: 100%;
 }
 
-#hero-subtitle {
-    font-style: italic;
+h1 {
     padding-top: 6rem;
+    color: #0F320C;
 }
 
-.display-4 {
-    font-family: "League Spartan";
+.mission {
+    width: 80%;
+    font-size: 1rem;
 }
 
 .btn {
     font-family: "Montserrat", sans-serif;
-    background-color:#8DB18C;
+    background-color:#F57FC4;
+    box-shadow: 3px 6px #0F320C;
+    margin: 2rem;
+    margin-bottom: 6rem;
 }
 
 .btn:hover {
     background-color: #233F14;
     color: white;
+    box-shadow: 3px 6px;
 }
+
+@media only screen and (max-width: 450px) {
+    .mission {
+        font-size: 0.7rem;
+        width: 100%;
+        line-height: 1.3;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        padding-top: 3rem;
+    }
+
+    .btn {
+        font-size: 0.6rem;
+    }
+}
+
 
