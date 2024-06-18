@@ -48,10 +48,11 @@ img {
     font-size: 0.8rem;
     text-align: center;
     background-color: white;
+    font-family: "Montserrat";
+    text-transform: lowercase;
 }
 
 .dropdown-item:hover {
-    background-color: white;
     text-decoration: underline;
 }
 
@@ -79,6 +80,21 @@ img {
         line-height: 0.3rem;
         text-transform: uppercase;
         float: left;
+    }
+
+    .dropdown-menu {
+        left: 50%;
+        transform: translateX(0%);
+    }
+
+    .dropdown-item {
+        color: #333;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        text-align: left;
+        font-family: "Montserrat";
+        text-transform: lowercase;
+        background-color: none;
     }
   }
 

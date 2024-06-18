@@ -27,7 +27,7 @@ function WynsNav() {
                             </div>
                         </div>
                         {/*<NavLink className="nav-item nav-link mx-4 text-dark" to="/construction">Events</NavLink>*/}
-                        <NavLink className="nav-item nav-link mx-4 text-dark" to="/construction">Contact</NavLink>
+                        <NavLink className="nav-item nav-link mx-4 text-dark" to="/contact">Contact</NavLink>
                     </div>
                     <div className="navbar-nav wyns-socials">
                         <a className="nav-item nav-link text-dark" href="https://www.instagram.com/wishyouthnetworksociety/?hl=en" target="_blank">Instagram</a>

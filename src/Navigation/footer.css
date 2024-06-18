@@ -8,9 +8,11 @@ footer {
 
 .footer-section {
     text-align: center;
+    font-size: 1rem;
+    padding-right: 1.5rem;
     section {
         list-style-type: none;
-        font-size: 0.8em;
+        font-size: 1em;
         font-family: "Montserrat", sans-serif;
     }
 }
@@ -27,4 +29,24 @@ section a:hover {
 
 footer img {
     border: 1px solid black;
+}
+
+.logo {
+    padding-right: 1rem;
+}
+.logo p {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-section {
+        text-align: center;
+        font-size: 0.9rem;
+        padding-right: 1rem;
+        section {
+            list-style-type: none;
+            font-size: 0.8em;
+            font-family: "Montserrat", sans-serif;
+        }
+    }
 }
