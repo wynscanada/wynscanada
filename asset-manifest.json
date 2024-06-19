@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/wishyouthnetworksociety.github.io/static/css/main.820d4b87.css",
-    "main.js": "/wishyouthnetworksociety.github.io/static/js/main.b78aac94.js",
-    "static/js/453.d1fe55a2.chunk.js": "/wishyouthnetworksociety.github.io/static/js/453.d1fe55a2.chunk.js",
-    "static/media/wynslogo.png": "/wishyouthnetworksociety.github.io/static/media/wynslogo.defe7034e1e51187fb19.png",
-    "static/media/wynslogowhitebg.jpg": "/wishyouthnetworksociety.github.io/static/media/wynslogowhitebg.e9915cdf3ecec9357676.jpg",
-    "static/media/discoball.jpeg": "/wishyouthnetworksociety.github.io/static/media/discoball.b5471af71c17fb9443d8.jpeg",
-    "static/media/k.jpeg": "/wishyouthnetworksociety.github.io/static/media/k.480ee4fe102a0873b60c.jpeg",
-    "static/media/s.jpeg": "/wishyouthnetworksociety.github.io/static/media/s.f9596be296a2909c5f45.jpeg",
-    "static/media/a.jpeg": "/wishyouthnetworksociety.github.io/static/media/a.ff9b4f99d3157f8e0d77.jpeg",
-    "static/media/r.jpeg": "/wishyouthnetworksociety.github.io/static/media/r.7294eacad1d8b092dd89.jpeg",
-    "static/media/p.jpeg": "/wishyouthnetworksociety.github.io/static/media/p.95bf7d9b945385e361f2.jpeg",
-    "index.html": "/wishyouthnetworksociety.github.io/index.html",
-    "main.820d4b87.css.map": "/wishyouthnetworksociety.github.io/static/css/main.820d4b87.css.map",
-    "main.b78aac94.js.map": "/wishyouthnetworksociety.github.io/static/js/main.b78aac94.js.map",
-    "453.d1fe55a2.chunk.js.map": "/wishyouthnetworksociety.github.io/static/js/453.d1fe55a2.chunk.js.map"
+    "main.css": "/wishyouthnetworksociety/src/App.js/static/css/main.820d4b87.css",
+    "main.js": "/wishyouthnetworksociety/src/App.js/static/js/main.da1d3596.js",
+    "static/js/453.d1fe55a2.chunk.js": "/wishyouthnetworksociety/src/App.js/static/js/453.d1fe55a2.chunk.js",
+    "static/media/wynslogo.png": "/wishyouthnetworksociety/src/App.js/static/media/wynslogo.defe7034e1e51187fb19.png",
+    "static/media/wynslogowhitebg.jpg": "/wishyouthnetworksociety/src/App.js/static/media/wynslogowhitebg.e9915cdf3ecec9357676.jpg",
+    "static/media/discoball.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/discoball.b5471af71c17fb9443d8.jpeg",
+    "static/media/k.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/k.480ee4fe102a0873b60c.jpeg",
+    "static/media/s.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/s.f9596be296a2909c5f45.jpeg",
+    "static/media/a.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/a.ff9b4f99d3157f8e0d77.jpeg",
+    "static/media/r.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/r.7294eacad1d8b092dd89.jpeg",
+    "static/media/p.jpeg": "/wishyouthnetworksociety/src/App.js/static/media/p.95bf7d9b945385e361f2.jpeg",
+    "index.html": "/wishyouthnetworksociety/src/App.js/index.html",
+    "main.820d4b87.css.map": "/wishyouthnetworksociety/src/App.js/static/css/main.820d4b87.css.map",
+    "main.da1d3596.js.map": "/wishyouthnetworksociety/src/App.js/static/js/main.da1d3596.js.map",
+    "453.d1fe55a2.chunk.js.map": "/wishyouthnetworksociety/src/App.js/static/js/453.d1fe55a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.820d4b87.css",
-    "static/js/main.b78aac94.js"
+    "static/js/main.da1d3596.js"
   ]
 }
