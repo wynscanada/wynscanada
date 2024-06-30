@@ -8,6 +8,7 @@ import About from './About.js';
 import Construction from './Construction.js';
 import WhoWeAre from './WhoWeAre.js';
 import Contact from './Contact.js';
+import JoinUs from './JoinUs.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/construction" element={<Construction />} />
+        <Route path="/joinus" element={<JoinUs />} />
         <Route path="/whoweare" element={<WhoWeAre />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

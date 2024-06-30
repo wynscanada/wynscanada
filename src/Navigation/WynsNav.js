@@ -26,8 +26,16 @@ function WynsNav() {
                                 <NavLink className="dropdown-item" to="/construction">Team</NavLink>
                             </div>
                         </div>
+                        <div className="nav-item dropdown mx-4">
+                            <NavLink className="nav-link dropdown-toggle text-dark" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Join Us
+                            </NavLink>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <NavLink className="dropdown-item" to="/joinus">Hiring</NavLink>
+                                <NavLink className="dropdown-item" to="/contact">Contact</NavLink>
+                            </div>
+                        </div>
                         {/*<NavLink className="nav-item nav-link mx-4 text-dark" to="/construction">Events</NavLink>*/}
-                        <NavLink className="nav-item nav-link mx-4 text-dark" to="/contact">Contact</NavLink>
                     </div>
                     <div className="navbar-nav wyns-socials">
                         <a className="nav-item nav-link text-dark" href="https://www.instagram.com/wishyouthnetworksociety/?hl=en" target="_blank">Instagram</a>
