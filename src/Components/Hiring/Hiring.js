@@ -2,8 +2,8 @@ import {React, useRef, useEffect} from 'react';
 
 function Hiring({positionName, link, positionDescription, color}) {
     const section = {
-        height: "80vh",
-        background: color
+        height: "100%",
+        background: color,
     }
 
     const description = {
@@ -16,7 +16,8 @@ function Hiring({positionName, link, positionDescription, color}) {
 
     const button = {
         fontSize: "0.9rem",
-        textDecoration: "none"
+        textDecoration: "none",
+        marginTop: "0rem"
     }
 
     const hiringRef = useRef(null);
@@ -49,7 +50,7 @@ function Hiring({positionName, link, positionDescription, color}) {
         <section className="container col-9" ref={hiringRef}>
             <h1 className="text-uppercase text-start fw-bold mb-4" style={title}>{positionName}</h1>
             <p className="my-5 col-8" style={description}>{positionDescription}</p>
-            <a className="btn text-uppercase mx-0 my-0" href={link} role="button" style={button}>apply now</a>
+            <a className="btn text-uppercase mx-0" href={link} role="button" style={button}>apply now</a>
         </section>
         </div>
     );

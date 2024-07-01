@@ -1,11 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import InProgress from "./Construction/InProgress.js";
+import InProgress from "./Components/Construction/InProgress.js";
 
 function Construction() {
   return (
-    <>
-      <InProgress />
-    </>
+    <InProgress />
   )
 }
 

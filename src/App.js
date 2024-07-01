@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home.js';
-import WynsNav from './Navigation/WynsNav.js';
-import Footer from './Navigation/Footer.js';
+import WynsNav from './Components/Navigation/WynsNav.js';
+import Footer from './Components/Navigation/Footer.js';
 import About from './About.js';
 import Construction from './Construction.js';
 import WhoWeAre from './WhoWeAre.js';
 import Contact from './Contact.js';
-import JoinUs from './JoinUs.js';
+import JoinUs from './Components/JoinUs.js';
 
 function App() {
   return (

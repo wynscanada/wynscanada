@@ -1,13 +1,12 @@
 import React from 'react';
-import '../fonts.css';
-{/*import './exec.css';*/}
+import '../../fonts.css';
 
 function ExecCard(props) {
     return (
         <div className="card mb-3 col-sm-12 col-lg-6" style={{ maxWidth: "31rem" }}>
             <div className="row no-gutters">
                 <div className="col-5">
-                    <img src={require("../assets/discoball.jpeg")} className="card-img" alt="exec photo"/>
+                    <img src={require("../../assets/discoball.jpeg")} className="card-img" alt="exec photo"/>
                 </div>
                 <div className="col-7">
                     <div className="card-body">

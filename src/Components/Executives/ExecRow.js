@@ -1,5 +1,5 @@
 import React from 'react';
-import '../fonts.css';
+import '../../fonts.css';
 import ExecCard from './ExecCard';
 
 function ExecRow(props) {

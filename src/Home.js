@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeHero from "./Hero/HomeHero.js";
+import HomeHero from "./Components/Hero/HomeHero.js";
 import { wyns, mission1, mission2, support, philanthropy, advocacy, recruitment, knowledge } from "./assets/data.js";
 import HorizontalCard from "./Cards/HorizontalCard.js";
-import s from "./assets/s.jpeg";
-import p from "./assets/p.jpeg";
-import a from "./assets/a.jpeg";
-import r from "./assets/r.jpeg";
-import k from "./assets/k.jpeg";
+import s from "./assets/images/s.jpeg";
+import p from "./assets/images/p.jpeg";
+import a from "./assets/images/a.jpeg";
+import r from "./assets/images/r.jpeg";
+import k from "./assets/images/k.jpeg";
 
 function Home() {
   const titleStyle = {

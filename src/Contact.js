@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import linktreeLogo from './assets/linktreelogo.png';
+import linktreeLogo from './assets/images/linktreelogo.png';
 
 function Contact() {
     const isSmallScreen = window.innerWidth < 576;

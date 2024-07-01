@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from "./Hero/Hero.js";
-import ExecSection from "./Executives/ExecSection.js";
+import Hero from "./Components/Hero/Hero.js";
+import ExecSection from "./Components/Executives/ExecSection.js";
 import {meetTheTeam, seniorTitle, heroDescription, execDescription, exec1, exec2 } from "./assets/data.js";
 
 function About() {

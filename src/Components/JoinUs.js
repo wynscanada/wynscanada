@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hiring from "./Hiring/Hiring.js";
-import { heroDescription } from "./assets/data.js";
+import { heroDescription } from "../assets/data.js";
 
 function JoinUs() {
   const greenToLightPink = {
