@@ -3,12 +3,8 @@ import Hiring from "./Hiring/Hiring.js";
 import { heroDescription } from "../assets/data.js";
 
 function JoinUs() {
-  const greenToLightPink = {
-    background: "linear-gradient(#E3F0E4,#FFE1EE)"
-  }
-
-  const lightPinkTogreen = {
-    background: "linear-gradient(#FFE1EE,#E3F0E4)"
+  const gradient = {
+    background: "linear-gradient(0.25turn, #FB9ED5, #FFFFFF, #D5E2D3)"
   }
 
   return (
@@ -17,21 +13,21 @@ function JoinUs() {
         positionName="School Executive"
         positionDescription={heroDescription}
         link="#"
-        color={greenToLightPink.background}
+        color={gradient.background}
       />
 
       <Hiring
         positionName="Research Member"
         positionDescription={heroDescription}
         link="#"
-        color={lightPinkTogreen.background}
+        color={gradient.background}
       />
 
       <Hiring
         positionName="Marketing Member"
         positionDescription={heroDescription}
         link="#"
-        color={greenToLightPink.background}
+        color={gradient.background}
       />
     </>
   );

@@ -18,7 +18,7 @@ function Home() {
   };
 
   const hcBackground = {
-    background: "linear-gradient(#FCA5D9, #E3F0E4)"
+    background: "linear-gradient(0.25turn, #FB9ED5, #FFFFFF, #D5E2D3)"
   }
 
   return (
