@@ -1,5 +1,17 @@
+@font-face {
+	font-family: 'Loubag-Bold';
+	src: url('../../assets/loubag-bold/loubag-bold.eot');
+	src: url('../../assets/loubag-bold/loubag-bold.eot?#iefix') format('embedded-opentype'),
+             url('../../assets/loubag-bold/loubag-bold.woff2') format('woff2'),
+	     url('../../assets/loubag-bold/loubag-bold.woff') format('woff'),
+	     url('../../assets/loubag-bold/loubag-bold.ttf') format('truetype'),
+	     url('../../assets/loubag-bold/loubag-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 h1 {
-    font-family: "League Spartan", sans-serif;
+    font-family: "Loubag-Bold", sans-serif;
     font-size: 2rem;
 }
 
@@ -17,25 +29,16 @@ h1 {
     padding-top: 9rem;
 }
 
-.text-reflect:before {
-    content: 'under construction...';
-    top: 2em;
-    transform: scale(1, -1);
+.text-reflect:after {
+    display: flex;
+    flex-direction: column;
+    content: 'come back soon for updates!';
     backface-visibility: visible;
     z-index: 1;
-    font-family: "Libre Baskerville";
-    font-size: 0.9em;
-    font-style: italic;
-}
-
-.text-reflect:after {
-    content: '';
-    display: block;
-    top: -10px;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 2;
+    font-size: 0.5em;
+    font-family: "Loubag-Ultralight";
+    left: 8px; 
+    letter-spacing: 0.2rem;
 }
 
 .in-progress {

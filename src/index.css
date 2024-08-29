@@ -1,3 +1,39 @@
+@font-face {
+	font-family: 'Loubag-Bold';
+	src: url('./assets/loubag-bold/loubag-bold.eot');
+	src: url('./assets/loubag-bold/loubag-bold.eot?#iefix') format('embedded-opentype'),
+             url('./assets/loubag-bold/loubag-bold.woff2') format('woff2'),
+	     url('./assets/loubag-bold/loubag-bold.woff') format('woff'),
+	     url('./assets/loubag-bold/loubag-bold.ttf') format('truetype'),
+	     url('./assets/loubag-bold/loubag-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Loubag-Regular';
+	src: url('./assets/loubag-regular/loubag-regular.eot');
+	src: url('./assets/loubag-regular/loubag-regular.eot?#iefix') format('embedded-opentype'),
+             url('./assets/loubag-regular/loubag-regular.woff2') format('woff2'),
+	     url('./assets/loubag-regular/loubag-regular.woff') format('woff'),
+	     url('./assets/loubag-regular/loubag-regular.ttf') format('truetype'),
+	     url('./assets/loubag-regular/loubag-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Loubag-UltraLight';
+	src: url('./assets/loubag-ultralight/loubag-ultralight.eot');
+	src: url('./assets/loubag-ultralight/loubag-ultralight.eot?#iefix') format('embedded-opentype'),
+             url('./assets/loubag-ultralight/loubag-ultralight.woff2') format('woff2'),
+	     url('./assets/loubag-ultralight/loubag-ultralight.woff') format('woff'),
+	     url('./assets/loubag-ultralight/loubag-ultralight.ttf') format('truetype'),
+	     url('./assets/loubag-ultralight/loubag-ultralight.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
   margin: 0;
   color: #0f320c;

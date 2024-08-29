@@ -1,8 +1,11 @@
-import { React, useRef, useEffect } from 'react';
+import { React, useRef, useEffect, useState } from 'react';
 import './HorizontalCard.css';
+import 'animate.css';
+
 
 function HorizontalCard({ imageSrc, alt, title, subtitle, bodyText }) {
     const cardRef = useRef(null);
+    const [hovered, setHovered] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -27,8 +30,20 @@ function HorizontalCard({ imageSrc, alt, title, subtitle, bodyText }) {
         };
     }, []);
 
+    const handleMouseEnter = () => {
+        setHovered(true);
+    };
+    
+    const handleMouseLeave = () => {
+        setHovered(false);
+    };
+    
+
     return (
-        <div className="horizontal-card" ref={cardRef}>
+        <div className={`horizontal-card ${hovered ? 'animate__animated animate__pulse' : ''}`}
+             ref={cardRef}
+             onMouseEnter={handleMouseEnter}
+             onMouseLeave={handleMouseLeave}>
             <div className="card-content">
                 <div className="card-image">
                     <img src={imageSrc} alt={alt} />

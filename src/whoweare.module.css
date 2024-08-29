@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+  }
+  
+  .left {
+    flex: 0.4;
+    padding: 0rem 6rem;
+    background: #FEE1F2;
+    overflow-y: auto;
+  }
+  
+  .right {
+    flex: 0.6;
+    align-content: center;
+    background: #FB9ED5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 1200px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left,
+    .right {
+      flex: 1; 
+      padding: 2rem;
+    }
+
+    .right {
+        height: 60vh;
+    }
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #FB9ED5;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-family: "Montserrat";
+  }
+  
+  .title {
+    font-family: "Loubag-Bold", "League Spartan";
+    font-weight: bold;
+  }
+  
+  .body {
+    font-family: "Montserrat";
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  

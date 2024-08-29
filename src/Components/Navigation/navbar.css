@@ -3,7 +3,24 @@
 
 .wyns-nav {
     background-color: #D5E2D3;
+    border-bottom: 4px solid white;
 }
+
+.wyns-nav .navbar-nav {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Ensure full width to center correctly */
+}
+
+.nav-section {
+    padding-left: 5rem;
+}
+.wyns-nav .navbar-nav.wyns-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 .wyns-links {
     font-family: "Libre Baskerville", serif;
@@ -15,7 +32,7 @@
 .wyns-socials {
     line-height: 0.6;
     font-size: 0.8em;
-    display: block;
+    display: flex;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
 }
@@ -26,6 +43,16 @@
 
 img {
     width: 4em;
+}
+
+.logo {
+    font-family: Libre Baskerville;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    padding-top: 20px;
 }
 
 .navbar-nav .dropdown:hover .dropdown-menu {
@@ -98,8 +125,20 @@ img {
     }
   }
 
+
+@media only screen and (max-width: 768px) {
+    .dropdown-menu {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 @media only screen and (max-width: 450px) {
     img {
         width: 3em;
     }
+}
+
+#logo-text {
+    font-size: 12px;
 }

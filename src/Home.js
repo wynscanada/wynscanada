@@ -10,7 +10,7 @@ import k from "./assets/images/k.jpeg";
 
 function Home() {
   const titleStyle = {
-    fontFamily: "League Spartan",
+    fontFamily: "Loubag-Bold",
     textTransform: "uppercase",
     fontSize: "2.5rem",
     textAlign: "center",
