@@ -6,7 +6,7 @@ function Footer() {
         <footer className="text-center text-black px-5 py-4 m-0">
             <div className="container d-flex justify-content-between align-items-center">
                 <div className="logo">
-                    <img src={require('./wynslogowhitebg.jpg')} className="rounded-circle img-fluid" alt="WYNS Logo" />
+                    <img src={require('./wynslogowhitebg.png')} className="rounded-circle img-fluid" alt="WYNS Logo" />
                 </div>
                 <div className="d-flex ml-auto">
                     <div className="footer-section">

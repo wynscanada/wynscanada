@@ -28,7 +28,7 @@ section a:hover {
 }
 
 footer img {
-    border: 1px solid black;
+    box-shadow: 1px 0px 4px 4px #FB9ED5;
 }
 
 .logo {
