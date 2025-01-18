@@ -26,6 +26,10 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-style: normal;
 }
 
+body {
+    color: #0F320C;
+}
+
 
 .jumbotron-fluid {
     background: linear-gradient(0.25turn, #FB9ED5, #FFFFFF, #D5E2D3);
@@ -44,6 +48,7 @@ h1 {
 .mission {
     width: 80%;
     font-size: 1rem;
+    color: #0F320C;
 }
 
 .btn {

@@ -18,15 +18,18 @@ function Contact() {
 
     const titleStyle = {
         paddingBottom: isSmallScreen ? "1rem" : "1.5rem",
-        fontFamily: "Montserrat",
+        fontFamily: "Loubag-Bold",
         textTransform: "uppercase",
-        textAlign: "center"
+        textAlign: "center",
+        color: "#0F320C"
     }
 
     const subtitleStyle = {
         fontFamily: "Montserrat",
+        fontWeight: "200",
         letterSpacing: "-0.5px",
         textAlign: "center",
+        color: "#0F320C"
     }
 
     const iconRow = {
@@ -34,12 +37,12 @@ function Contact() {
         alignItems: "center",
         gap: isSmallScreen ? "0.6rem" : "1rem",
         justifyContent: "center",
-        paddingBottom: isSmallScreen ? "1.5rem" : "2.5rem"
+        paddingBottom: isSmallScreen ? "1.5rem" : "2.5rem",
     }
 
     const iconStyle = {
         height: isSmallScreen ? "6vh" : "7vh",
-        width: isSmallScreen ? "6vh" : "7vh"
+        width: isSmallScreen ? "6vh" : "7vh",
     }
 
     const align = {
@@ -52,12 +55,14 @@ function Contact() {
         fontSize: isSmallScreen ? "0.5rem" : "0.8rem",
         marginTop: "0.5rem",
         textAlign: "center",
-        fontFamily: "Montserrat"
+        fontFamily: "Montserrat",
+        color: "#0F320C"
     }
 
     const emailStyle = {
         textDecoration: "underline",
         fontSize: "1rem",
+        color: "#0F320C"
     }
 
     return (

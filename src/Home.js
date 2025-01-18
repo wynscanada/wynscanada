@@ -2,11 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeHero from "./Components/Hero/HomeHero.js";
 import { wyns, mission1, mission2, support, philanthropy, advocacy, recruitment, knowledge } from "./assets/data.js";
 import HorizontalCard from "./Cards/HorizontalCard.js";
-import s from "./assets/images/s.jpeg";
-import p from "./assets/images/p.jpeg";
-import a from "./assets/images/a.jpeg";
-import r from "./assets/images/r.jpeg";
-import k from "./assets/images/k.jpeg";
+import s from "./assets/images/s.png";
+import p from "./assets/images/p.png";
+import a from "./assets/images/a.png";
+import r from "./assets/images/r.png";
+import k from "./assets/images/k.png";
 
 function Home() {
   const titleStyle = {
@@ -14,7 +14,8 @@ function Home() {
     textTransform: "uppercase",
     fontSize: "2.5rem",
     textAlign: "center",
-    paddingTop: "6rem"
+    paddingTop: "6rem",
+    color: "#0F320C"
   };
 
   const hcBackground = {

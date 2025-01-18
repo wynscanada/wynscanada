@@ -3,7 +3,7 @@
 
 footer {
     background-color: #E3F0E4;
-    font-family: "Libre Baskerville";
+    font-family: "Loubag-Regular";
 }
 
 .footer-section {
@@ -29,6 +29,7 @@ section a:hover {
 
 footer img {
     box-shadow: 1px 0px 4px 4px #FB9ED5;
+    background-color: white;
 }
 
 .logo {

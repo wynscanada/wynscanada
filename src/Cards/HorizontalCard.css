@@ -6,6 +6,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 1rem 0;
     height: 20vh;
+    color: #0F320C;
 }
 
 .horizontal-card:hover {
